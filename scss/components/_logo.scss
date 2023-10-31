@@ -1,0 +1,9 @@
+@use "../abstracts";
+.logo {
+    &__img {
+
+        @include abstracts.breakpoint(lg) {
+            width: 74px;
+        }
+    }
+}
